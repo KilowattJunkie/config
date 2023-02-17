@@ -12,6 +12,7 @@ import java.util.List;
 import java.util.ListIterator;
 
 import com.typesafe.config.ConfigException;
+import com.typesafe.config.ConfigException.BadPath;
 import com.typesafe.config.ConfigList;
 import com.typesafe.config.ConfigOrigin;
 import com.typesafe.config.ConfigRenderOptions;
